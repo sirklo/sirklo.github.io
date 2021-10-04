@@ -1,0 +1,473 @@
+/* (c) Boucek, just-be.cz, boucek.biz */
+/*banner velkobchod*/
+	  .bann-mczo a{
+  	/*font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+  	margin-top: 5px;
+	font-size: 15px;
+	letter-spacing: 0.07em;
+	font-weight:400;
+	text-align: center;
+	color: #3366CC;
+    height: 30px;
+    width: 980px;
+    line-height: 30px;
+    background-position: 0px 0px;
+    background-image: url(velkoobchod.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #fff;
+    
+  }
+    .bann-mczo a:hover{
+    background-position: 0px -30px;
+    color: #3399FF;
+  }
+  .undl{
+  	text-decoration: underline;
+  	font-weight: 900;
+  }
+  a.banner-uvod{
+	margin-bottom: 10px;
+	margin-left: 22px;
+	height: 80px;
+	width: 550px;
+	background: url(aduvod.png); background-position: bottom; background-repeat: no-repeat; 
+	cursor: pointer;
+	display: block;
+	float: left;
+}
+a.banner-uvod:hover{
+	background: url(aduvod.png); background-position: top; background-repeat: no-repeat;
+}
+
+/*elementy*/
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight:400;
+	text-align: center;
+	background: #9eb6ff;}
+a img {
+	border: none}
+	
+a {
+	color:#3399FF; text-decoration: underline;}
+a:hover {
+	color:#3366CC; text-decoration: none;}
+h1{
+	text-align: left;
+	padding-left: 22px;
+	margin: 0;
+	color: #3399FF;
+	font-size: 24px;
+	font-weight: 800;
+}
+  div.margleft20 h1{
+    padding-left:0px;
+  }
+h2{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: left;
+	padding-left: 10px;
+	color: #3399FF;
+	font-size: 20px;
+	font-weight: 200;}
+h3{
+	text-align: left;
+	padding-left: 10px;
+	color: #3399FF;
+	font-size: 16px;
+	font-weight: 200;}
+h4{
+	text-align: left;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;}
+strong {font-weight: 800}
+
+input.submit, input[type="button"], input[type="submit"]{
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #3399FF;
+  color: #fff;
+  height: 33px;line-height: 33px;
+  font-size: 1.2em; /*16px;*/
+  font-family: Calibri, Arial;
+  /*border:none;*/
+	background: url(modra.png) 0 0;
+	border: 1px solid #188beb;
+	/*width: 40px;*/
+	cursor: pointer; 
+	text-align: center;
+  
+}
+
+/*layout*/
+#bg{width: 100%;	
+	background:#fff url(bg.jpg) repeat-x top;
+	text-align: left;
+}
+#main{
+	margin: auto;	
+	width: 980px;
+	height: auto;
+	background:#FFF;}
+#head{margin-top: 0px; width: 980px; height: 205px; float: left; text-align: left; margin-left: 0px; background:url(topbg.jpg) top no-repeat}
+#uiuser{margin-top: 10px; width: 980px; height: 20px; float: left; text-align: right; margin-left: 0px; font-size: 90%;}
+#uiuser a{color: #333333; font-weight:bold;}
+#uiuser a:hover{color: #9966CC;}
+#headmid{margin-top: 0px; width: 980px; height: 125px; float: left; position:relative;}
+#logo{margin-top: 25px; width: 293px; height: 82px; float: left;}
+  #uinew{
+    text-align:right;
+    position:absolute;
+    right: 145px;
+    top:10px;
+    width:250px;
+    height:82px;
+    color:#3399FF;
+    font-size:13px;
+  }
+  #uinew a{
+    padding-top:12px;
+    _padding-top:6px;
+    width:102px;
+    float:right;
+    text-align:center;
+    height:34px;
+    display:block;
+    background: url(reg_registruj.png) no-repeat;
+    color:#fff; 
+    font-size:14px;
+    text-decoration: underline;
+  }
+  #uicurrent{
+    /*float:right;*/
+    display:block;
+    text-align:right;
+    position:absolute;
+    right: 0px;
+    top:10px;
+    width:135px;
+    height:82px;
+    color:#3399cc;
+    font-size:12px;
+  }
+    #uicurrent form{
+      margin:0px;
+      padding:0px;
+    }
+  #uicurrent input{
+    width:128px;
+    height:24px;
+    display:block;
+    line-height:24px;
+    color:#fff;
+    background: url(reg_input.png) no-repeat;
+    border:none;
+    float:right;
+    margin-top:5px;
+    text-align:center;
+  }
+  #uicurrent input.submit{
+    display:block;
+      -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background: #3399FF;
+    width:40px;
+    text-align: center;
+    height:23px;
+    font-weight:bold; 
+  }
+
+/*table#adresy input.submit { background: #36c; color: #fff; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; border-color: #36c;}*/    
+#search, #search fieldset { margin-right: 10px;	padding: 0; border: 0px; float:right; width: 270px; }
+#search input.hled {margin-left: 30px; float:left; height: 37px; line-height: 37px; width: 200px; background:url(uisearch.png) no-repeat; border: 0px; font-size: 16px; color: #999; font-weight:bold; padding-left: 10px; }
+#search input.lupa{margin-left: -20px; float:left; height: 37px; width: 28px; background:url(uilupa.png) no-repeat; border: 0px; cursor:pointer;}
+#drobmenu{margin-top: 2px; width: 980px; height: 30px; float: left; text-align:left; background:url(topcontbg.jpg) top repeat-x; font-size: 80%;}
+#drobmenu a{color: #3399FF; text-decoration:none;}
+#drobmenu a:hover{color: #9966CC; text-decoration:none;}
+#drobmenu a.drobkaz{text-decoration:underline; color: #818080} #drobmenu a.drobkaz:hover{text-decoration:none;}
+#left{margin-top: 0px; width: 210px; float: left; text-align:left; min-height: 450px; _height: 450px;} /* 1100px */
+#center{margin-top: 0px; width: 580px; float: left; text-align:left;border-right: 1px solid #ccc;}
+#adleft{margin-top: 10px; margin-left: 0px; width: 180px; height:340px; float: left; text-align:left; background: url(adneconavic.jpg) no-repeat top;}
+#adneconavic{margin-top: 66px; _margin-top: 76px; margin-left: 5px; width: 170px; float: left; text-align:left; height:220px;}
+#adneconavic ul li{list-style:url(uitick.png); margin-left: -10px; margin-top: 7px; font-size: 95%; color:#3366CC; font-weight:800;}
+#right_sub{float:left; width: 770px; margin-top:0px;}
+	#adcenter{margin-top: 10px; margin-left: 10px; width: 557px; height:267px; float: left; text-align:left; background: url(adbrava.jpg) no-repeat top;} /* adobuv.jpg*/
+	#adcenterbutt a{margin-top: 200px; margin-left: 360px; width: 160px; height:20px; float: left; text-align:center; font-size: 130%; font-weight: 900; color: #FFF;}
+	#right{margin-top: 0px; margin-left: 9px; width: 180px; float: left; text-align:left;}
+	#right h2{margin-left:-10px; margin-top: 0px; color: #3399FF; font-size: 20px; font-weight: 200;}
+	#right h3{margin-left:-10px; margin-top: 0px; color: #3366cc; font-size: 16px; font-weight: 800;}
+	#adright{margin-top: 0px; margin-left: 0px; width: 180px; height:340px; float: left; text-align:left; background: url(adneconavic.jpg) no-repeat top;}
+	/* detail zbozi */
+	#right_sub div.det_foto{ border: 1px solid #cccccb; float:left;width:742px; margin-top:10px;margin-bottom:5px; padding:3px; position:relative;} /*748 - 6px padding*/
+	/*
+  #right_sub div.det_foto div#slevabox{ position: absolute; top: 15px; left: -10px; width: 98px; height:52px; line-height:44px; color:#fff; font-weight:bold;font-size: 24px; background:url(../img/ramsleva.gif) no-repeat; text-align:center;}
+  */
+	#right_sub div.det_foto div#slevabox, 
+  #right_sub div.det_foto div#slevaakc, 
+  #right_sub div.det_foto div#slevavyp, 
+  #right_sub div.det_foto div#slevanew, 
+  #right_sub div.det_foto div#slevatip { position: absolute; top: 15px; left: -10px; width: 98px; height:52px; line-height:44px; color:#fff; font-weight:bold;font-size: 24px; text-align:center;}
+	#right_sub div.det_foto div#slevaakc { background:url(ico_mid_akce.png) no-repeat; }
+	#right_sub div.det_foto div#slevavyp { background:url(ico_mid_vyprodej.png) no-repeat; }
+	#right_sub div.det_foto div#slevanew { background:url(ico_mid_novinka.png) no-repeat; }
+	#right_sub div.det_foto div#slevatip { background:url(ico_mid_tip.png) no-repeat; }
+	#right_sub div.det_foto div#slevabox { background:url(ramsleva.gif) no-repeat; }
+
+
+	#right_sub div.det_foto div.hl_obrazek{ width: 350px; float:left; text-align:center;}
+	#right_sub #detailnifotky, #right_sub #fotkyvlevo { width:350px; float:left;}
+
+	#objzbozi table {float:right; border-collapse: collapse; }
+	#objzbozi table th, #objzbozi table td {padding: 4px 10px;}
+	#objzbozi select{ width:220px;}
+	#objzbozi tr.varigray{ background: #e4e4e5;}
+	#objzbozi tr.det_puvodnicena, #objzbozi tr.mensi { color:#8d8d8d;}
+	#objzbozi tr.det_sleva th,#objzbozi tr.det_sleva td{ font-size: 16px; font-weight:bold; }
+	#objzbozi tr.det_sleva td.cenasleva{ color:#36c;}
+	#objzbozi input.inpkoupit{ border: 2px solid #949494; text-align:center; width:45px; height:29px; line-height:29px;}
+	#objzbozi input.koupit{ background: url(do_kosiku.png) no-repeat; width: 156px; height: 29px; border:none;}
+	/* detail zbozi - end of */
+	
+	/* kosik */
+	table#kosik { margin: 10px 2px;}
+	table#kosik, table#kosik table { width:745px; border-collapse: collapse; }
+	table#kosik td  { padding: 0px; }
+	
+	table#kosik table td { padding: 10px 2px; }
+		table#kosik table tr.endvari td { padding: 2px; }
+		table#kosik table tr.end td { padding-top: 2px; }
+	table#kosik table tr.end { border-bottom:1px solid #cfcfcf; }
+	table#kosik table input.kosik_ks { border:1px solid #999; width:43px;height:22px;line-height:22px; padding-right:3px;text-align:right; }
+	table#kosik td.right { text-align: right; } /* padding-right:5px; */
+	table#kosik td.polobj{ background: #36c; color:#fff; font-size:16px; padding: 3px 15px; font-weight:bold;}
+	table#kosik th { background:#e0effe; padding: 5px 2px; font-size: 12px; color: #010101;}
+	table#kosik tr.celkovacena td {background: #e0effe; height:48px; color:#36c; font-size:16px; text-align: right; padding-right:5px;}
+	table#kosik tr.celkovacena td strong, table td.nobr { white-space:nowrap; }
+	table#kosik input.upravit_kosik{ float: left; background: url(kos-prepocitat_txt.png) no-repeat; width:122px; height:29px; border:none; font-size:0px;}
+	table#kosik input.odeslat_kosik{ float: right; background: url(kos-pokracovat_txt.png) no-repeat; margin-top:5px;width:214px; height:29px; border:none; font-size:0px; }
+	table#kosik input.zpetnazbozi, input.zpetnazbozi{ float: right; background: url(kos-zpet_txt.png) no-repeat; margin:5px 10px 0px 0px;width:154px; height:29px; border:none; font-size:0px;}
+	input.zpetnalogin{ float: left; background: url(kos-zpet.png) no-repeat; margin-top:5px;width:154px; height:29px; border:none; font-size:14px; color:#36c; font-weight: bold; line-height:26px;}
+	input.long, textarea.long { width: 450px; }
+	/* kosik - end of */
+	
+	/* objednavka */
+	table.ramecekobj { width: 745px; margin-left:2px; margin-top:15px; }
+	table.ramecekobj input.submit { margin-top:10px; }
+
+	div.section table.ramecekobj { width: 720px; }
+	table.ramecekobj tr { border-collapse: colapse; }
+	table.ramecekobj td.legend{ background: #36c; color:#fff; font-size:16px; padding: 3px 15px; font-weight:bold;}
+	table.ramecekobj td.legendin{ padding: 10px; border: 1px solid #cfcfcf; border-top: 1px solid #36c; }
+	
+	#uicurrent a{ font-size: 9px; float:left; margin-left:5px; }
+	#logkosik { border:1px solid #cfcfcf; margin: 15px 0px; padding: 20px; width:705px;}
+	#logkosik td, #logkosik th  { padding:5px; }
+	#logkosik input.submit, input.odeslat_kosik{ background: url(kos-login.png) no-repeat; margin-top:5px;width:247px; height:30px; border:none; font-size:0px;margin-bottom:30px;}
+	input.dokonci_kosik{ background: url(kos-dokoncit.png) no-repeat; margin-top:5px;width:195px; height:30px; border:none; font-size:0px;margin-bottom:30px;}
+	input.odeslat_kosik, input.dokonci_kosik{ float:right; }
+	/* objednavka - end of */
+	
+#cat_menu{margin-top: 10px; margin-left: 20px;  _margin-left: 8px; width: 750px; float: left; text-align:left;}
+#cat_menu ul{padding:0px; margin: 0px; list-style:none;}
+#cat_menu ul li{display: block; float: left; text-align: left; margin-left: 5px; margin-right: 5px;	margin-top: 10px; height: 30px;	line-height: 30px;}
+#cat_menu ul li a{display: block; padding-left: 10px; text-decoration: underline; font-size: 16px; font-weight: 100; color: #3366FF; background: url(menu1.png) no-repeat left;}
+#cat_menu ul li a:hover{color: #3399FF; border-right-color:#6E4691;	background: url(menu3.png) no-repeat left;}
+#sort{margin-top: 10px; margin-left: 10px; _margin-left: 5px; width: 750px;; float: left; text-align:left; border: 1px solid #ccc;}
+#sort ul{margin-left: 15px; _margin-left: 8px; margin-top:0px; margin-bottom:5px;padding: 0; width: 725px; float:left; list-style:none;}
+#sort ul li{display: block; float: left; text-align: left; margin-right: 10px;	margin-top: 5px; height: 20px;	line-height: 20px;}
+#sort ul li a{display: block; text-decoration: underline; font-size: 12px; font-weight: 100; color: #3366FF;}
+#sort ul li a:hover{color: #3399FF;}
+#sort ul li a.selected{background-color: #3399FF; color:#FFF; padding-left: 5px; padding-right:5px;}
+#sort ul li a.selected:hover{color:#FFF;}
+#adcenter{margin-top: 10px; margin-left: 10px; width: 557px; height:267px; float: left; text-align:left; background: url(adbrava.jpg) no-repeat top;} /*adobuv.jpg*/
+#adcenterbutt a{margin-top: 200px; margin-left: 360px; width: 160px; height:20px; float: left; text-align:center; font-size: 130%; font-weight: 900; color: #FFF;}
+#aktuality{margin-top: 0px; margin-left: 5px; width: 170px; float: left; text-align:left;}
+#adright2{margin-top: 10px; margin-left: 0px; width: 180px; height:300px; float: left; text-align:left; background: url(adpoukaz.jpg) no-repeat top;}
+#adright2txt{margin-top: 0px; _margin-top: 20px; margin-left: 15px; _margin-left: 8px; width: 140px; float: left; text-align:left; color:#FFF;}
+#adright2butt a{margin-top: 130px; margin-left: 10px; width: 160px; height:20px; float: left; text-align:center; font-size: 130%; font-weight: 900; color: #3399FF;}
+#adright3{margin-top: 0px; margin-left: 0px; width: 180px; height:300px; float: left; text-align:left; background: url(adasistent.jpg) no-repeat top;}
+#adright3txt{margin-top: 0px; _margin-top: 10px; margin-left: 10px; _margin-left: 5px; width: 140px; float: left; text-align:left;}
+#adright3butt a{margin-top: 65px; _margin-top: 75px; margin-left: 60px; float: left; text-align:left; text-decoration: none;}
+#adright3butt a:hover{color: red;}
+div.strankovani{margin-top: 5px; margin-left: 220px; _margin-left: 110px; width: 400px; text-align:left; float:right; font-size:90%; color:#999;} /*width:750px; float:left;*/
+div.strankovani ul{padding: 0; float:right; list-style:none;}
+div.strankovani ul li{display: block; float: left; text-align: center; margin-right: 10px; height: 22px; line-height: 22px; background:url(uipage.png); width:26px; }
+div.strankovani ul li.big{display: block; float: left; text-align: center; margin-right: 10px; height: 22px; line-height: 22px; background:url(uipage_big.png); width:30px; }
+div.strankovani ul li a{display: block; text-decoration: none; font-size: 12px; font-weight: 100; color: #3366FF; cursor: pointer;}
+div.strankovani ul li a:hover, div.strankovani ul li a.act{color: #fff; background:url(uipagesel.png);}
+div.strankovani ul li.big a:hover, div.strankovani ul li.big a.act{color: #fff; background:url(uipagesel_big.png);}
+div.strankovani ul li a.selected{background:url(uipagesel.png); color:#FFF; padding-left: 5px; padding-right:5px;}
+div.strankovani ul li a.selected:hover{color:#FFF; background:url(uipagesel.png);}
+#pata{margin-top: 0px; width: 100%; height: 370px; background: #9eb6ff; text-align:center;}
+#credits{margin:auto; height:350px; width: 980px; background: url(botbg.jpg) no-repeat top;}
+#credits h4{ margin: 1.3em 0em; }
+#credits a{color: #3366CC; text-decoration:underline; }#credits a:hover{color: #06528A; text-decoration:underline; }
+#credits hr{border-top: 1px solid #3366cc; border-botom: 1px solid #9eb6ff; height: 25%;}
+#bottop{margin-top: 30px; height:50px; width: 50px; float: left; text-align:center;}
+/*tridy*/
+.skrtni { text-decoration: line-through; }
+.violet{color: #9966CC;	font-size: 120%; font-weight: 800;}
+.violet2{color: #9966CC;	font-size: 150%; font-weight: 800;}
+.violet3, #objzbozi tr.det_sleva td.violet3{color: #9966CC;	font-size: 175%; font-weight: 800;}
+.sklad, .dotydne, .nadotaz { clear:left; margin-left:10px; float:left;}
+	.barvasklad{color: #8EBD43;}
+	.barvadotydne{color: #F19123;}
+	.barvanadotaz{color: #E32528;}
+.sklad{color: #8EBD43;	font-size: 80%; font-weight: 800;}
+.skladsp{color: #8EBD43;	font-size: 80%; font-weight: 800; float:left; margin-left:10px;}
+.dotydne{color: #F19123;	font-size: 80%; font-weight: 800;}
+.dotydnesp{color: #F19123;	font-size: 80%; font-weight: 800; float:left; margin-left:10px;}
+.nadotaz{color: #E32528;	font-size: 80%; font-weight: 800;}
+.nadotazsp{color: #E32528;	font-size: 80%; font-weight: 800; float:left; margin-left:10px;}
+.mj{color: #999; margin-top: 5px; margin-left: 10px;}
+.itembox{text-align: left; margin-left: 10px; width: 196px;}
+.itembox a{color: #3366CC;	font-size: 110%; font-weight: 800; } /* levý sloupec */
+.itembox a:hover{color: #3399FF;	font-size: 110%; font-weight: 800;}
+.itemboxfoto{border: 1px solid #CCC; text-align:center; width: 196px; }
+.itemboxfoto a { display:block; margin:10px 0px;}
+.itembox2{text-align: left; margin-left: 15px; _margin-left: 8px; margin-top: 0px; width: 125px; font-size: 85%; float:left; position:relative;}
+.itembox2 a{color: #3366CC;	font-weight: 800; font-size: 110%;}
+.itembox2 a:hover{color: #3399FF; font-weight: 800;}
+.itembox2 a.anejodk { display:table-cell;vertical-align: middle; width:125px; height:100px;}
+.itemboxfoto2{border: 1px solid #CCC; text-align:center; width: 125px; height: 100px;}
+.itemboxfoto3{margin-left: 10px; border: 1px solid #CCC; text-align:center; width: 125px; float:left;} /*  height: 100px; */
+.itemboxfoto3 a{display:block; width:125px; height:93px; overflow: hidden;}
+.uvodboxes{margin-top: 10px; margin-left: 10px; padding-bottom: 10px; width: 570px; _width: 560px; float: left; border-bottom: 1px solid #ccc;}
+.uvodboxes h3, h3 a{margin: 0; text-decoration: none; color:#3366CC; font-weight: 800;}
+p.clanekinfo{margin-top: -15px; margin-left: 10px; text-decoration: none; color:#999; font-weight: 800; font-size: 85%;}
+.itemboxsp{text-align: left; margin-left: 10px; margin-top: 10px; width: 243px; _width: 226px; min-height:275px; _height:275px; float:left; border-bottom: 1px solid #999; border-right: 1px solid #CCC; padding:0; background:url(bgitembox.png) bottom repeat-x; position:relative;}
+ #souvisejici .itemboxsp{ margin-left: 5px;}
+.itemboxsp a{color: #3366CC; font-size: 110%; font-weight: 800;}
+.itemboxsp a:hover{color: #3399FF;	font-size: 110%; font-weight: 800;}
+  .itemboxsp .icon{ width:58px;height:36px;position:absolute;top:35px;right: 5px;}
+  .itemboxsp .icon.iakce{ background:url(ico_akce.png) no-repeat}
+  .itemboxsp .icon.ivypr{ background:url(ico_vyprodej.png) no-repeat}
+  .itemboxsp .icon.islev{ background:url(ico_procenta.png) no-repeat; color:#fff; font-size:14px;text-align:center;line-height:30px;font-weight:bold;}
+  .itemboxsp .icon.itip{ background:url(ico_tip.png) no-repeat}
+  .itemboxsp .icon.inovi{ background:url(ico_novinka.png) no-repeat}
+
+  .itembox2 .icon{ width:58px;height:36px;position:absolute;top:-6px;right: -6px;}
+  .itembox2 .icon.iakce{ background:url(ico_akce.png) no-repeat}
+  .itembox2 .icon.ivypr{ background:url(ico_vyprodej.png) no-repeat}
+  .itembox2 .icon.islev{ background:url(ico_procenta.png) no-repeat; color:#fff; font-size:14px;text-align:center;line-height:30px;font-weight:bold;}
+  .itembox2 .icon.itip{ background:url(ico_tip.png) no-repeat}
+  .itembox2 .icon.inovi{ background:url(ico_novinka.png) no-repeat}
+  
+.itemboxfotosp{text-align:center; width: 243px;_width: 226px; height:155px; overflow: hidden;}
+.itemboxfotosp p a { display: block; height:130px; overflow: hidden; }
+.itemboxfotosp p a img{ /*width:140px;*/ max-height:130px; _height:130px; }
+.nadpis{margin-left: 10px; height:36px;}
+.cena{color: #9966CC;	font-size: 140%; font-weight: 900; margin-top: -10px; _margin-top: 0px; %margin-top: 0px; float:left; margin-left:10px;}
+.popisek{font-size: 90%; width: 95%;float:left; margin-left:10px;}
+p.clanekperex{margin-top: 0px; margin-left: 10px; text-decoration: none; float:left; width: 400px;}
+p.clanekodkaz{margin-top: 0px; margin-left: 10px; text-decoration: none; float:left; width: 400px; text-align: right;}
+p.aktualinfo{margin-top: -15px; margin-left: 0px; text-decoration: none; color:#999; font-weight: 800; font-size: 85%;}
+p.aktualperex{margin-top: 0px; margin-left: 0px; text-decoration: none; float:left; width: 160px; font-size: 95%;}
+p.aktualodkaz{margin-top: 0px; margin-left: 0px; text-decoration: none; float:left; width: 160px; text-align: right;}
+.archivebut a{width: 101px; height: 32px; line-height: 20px; text-align:center; float:right; margin-top: 10px; margin-right: 10px;color: #fff; text-decoration: underline; font-size:90%; background:url(uibubbledown.png) no-repeat 0 0;}
+.archivebut a:hover{background:url(uibubbledown.png) no-repeat 0 -32px;}
+p.adr2vetsi{font-size: 120%; font-weight: 800;}
+p.adr3vetsi{font-size: 120%; font-weight: 800; color: #3366CC}
+p.adr3mensi{font-size: 90%; font-weight: 800; margin-top: -10px;}
+.adr3v{font-size: 190%; font-weight: 800; color: #3366CC}
+.adr3m{font-size: 110%; font-weight: 800; color: #3399FF; margin-left: 10px;}
+.botbox{margin-top: 0px; _margin-top: 20px; float: left; margin-left: 6px; text-align:left; color: #3366CC; width: 170px; font-size: 85%; }
+.botbox-zakaznici{margin-top: -50px; float: left; margin-left: 6px; text-align:left; color: #3366CC; width: 160px; font-size: 85%;}
+.botbox-kontakt{margin-top: 0px; margin-left: 6px; float: left; text-align:left; height: 53px; width: 500px;}
+.botbox-kontakty-spolu{margin: 0px; float: left; text-align:left; color: #3366CC; width: 580px; height: 210px; }
+.botbox-linka{margin-top: 0px; float: left; text-align:left; width: 170px; height: 90px; border-bottom: 1px dotted #3366CC; font-size: 85%;}
+.botbox-linka ul{list-style: none; padding:0px; margin: 0px;}
+.botbox-spolu{margin-top: 0px; margin-left: 6px; width: 180px; float: left; }
+.vr{float: left; margin-left: 10px; margin-top: 20px; height: 150px; width: 10px; background: url(botvr.jpg) no-repeat left top;}
+.addcart a{width: 100px; height: 23px; line-height: 23px; text-align:center; float:right; margin-top: 0px; margin-right: 0px;color: #fff; text-decoration: none; font-size:90%; background:url(uiadd.png) no-repeat 0 0;}
+.addcart a:hover{background:url(uiadd.png) no-repeat 0 -23px;font-size:90%; color:#3366CC}
+.break, .cleaner {
+	clear: both;
+	height: 1px;
+	font-size: 1px;
+	border: none;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ffffff;
+}
+div.margleft20{
+  margin-left: 20px; 
+}
+
+ul#kos_krok {
+  height: 50px;
+  list-style-type: none;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  width:745px;
+  padding:0px;
+  /*margin-bottom:30px;*/
+}
+ul#kos_krok li {
+  list-style-type: none;
+  float: left;
+  display: block;
+  height: 50px;
+  line-height: 27px;
+  text-align: left;
+  font-size:14px;
+  width: 175px;
+  padding-left: 10px;
+  color:#808080;
+  background: url(kos-ul.png) no-repeat bottom center;
+}
+ul#kos_krok li.krok_act {
+  background: url(kos-ul-act.png) no-repeat bottom center;
+  color: #3366cc;
+  font-weight:bold;
+}
+#message-red, #message-green{
+	margin: 10px 0px;
+}
+.t1{
+	background: #fff;
+	padding: 10px;
+	font-size: 100%;
+}
+.t2{
+	background: #e0effe;
+	padding: 10px;
+	font-size: 100%;
+}
+.tx{
+	background: #36c;
+	width: 150px;
+	color: #fff;
+	font-size: 100%;
+  text-align: center
+}
+.producttable {
+  margin-left:auto; 
+  margin-right:auto;
+}
+#dopravne .right{
+  text-align:right;
+}
+#dopravne .stred{
+  text-align:center;
+}
+div.oddpop p{
+  padding: 0px;
+  padding-left:20px;
+  margin-block-end:0px;
+}

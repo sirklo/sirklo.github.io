@@ -1,0 +1,41 @@
+#nav {text-align: left; border: 1px solid #ccc;}
+#nav ul {display:none;}
+#nav, #nav ul {padding:0; margin:0; list-style:none; width:206px;}
+#nav ul {padding-left:10px; width:196px;}
+#nav li a { color:#666; text-indent:20px; text-decoration:none; display:block; width:100%;}
+#nav li {padding-left:0px; line-height:31px; cursor:pointer; width:100%; background: url(submenubglink.jpg) left no-repeat;}
+#nav li a:hover {color: #999;}
+#nav li.has_ul, #nav li.uroven0, #nav li.uroven1, #nav li.uroven2, #nav li.uroven3, #nav li.uroven4 { text-indent:20px;color:#3366CC;}
+/*
+#nav li.uroven1{ text-indent: 30px; width: 206px;  background:url(../img/submenubg.jpg) no-repeat 0px 0px; }
+#nav li.uroven2{ text-indent: 40px; width: 206px;  background:url(../img/submenubg.jpg) no-repeat 0px 0px; }
+#nav li.uroven3{ text-indent: 50px; width: 206px;  background:url(../img/submenubg.jpg) no-repeat 30px 0px; }
+#nav li.uroven4{ padding-left: 40px; width: 166px;  background:url(../img/submenubg.jpg) no-repeat 40px 0px; }
+#nav li.uroven5{ padding-left: 50px; width: 156px;  background:url(../img/submenubg.jpg) no-repeat 50px 0px; }
+#nav li.uroven6{ padding-left: 60px; width: 146px;  background:url(../img/submenubg.jpg) no-repeat 60px 0px; }
+#nav li.uroven7{ padding-left: 70px; width: 136px;  background:url(../img/submenubg.jpg) no-repeat 70px 0px; }
+*/
+#nav li.uroven0{ background:url(submenubgexp.jpg) }
+#nav li.uroven0 a, #nav li.uroven0 a.akt{ background:url(submenubgexp_sipka.jpg) no-repeat 5px 0px; }
+#nav li.uroven1{ background:url(submenubgexp.jpg) }
+#nav li.uroven1 a, #nav li.uroven1 a.akt{ text-indent: 30px;  background:url(submenubgexp_sipka.jpg) no-repeat 15px 0px; }
+#nav li.uroven2{ background:url(submenubg.jpg) }
+#nav li.uroven2 a, #nav li.uroven2 a.akt{ text-indent: 40px;  background:url(submenubg_sipka.jpg) no-repeat 25px 0px; }
+#nav li.uroven3{ background:url(submenubg.jpg) }
+#nav li.uroven3 a, #nav li.uroven3 a.akt{ text-indent: 50px;  background:url(submenubg_sipka.jpg) no-repeat 35px 0px; }
+#nav li.uroven4{ background:url(submenubg.jpg) }
+#nav li.uroven4 a, #nav li.uroven4 a.akt{ text-indent: 60px;  background:url(submenubg_sipka.jpg) no-repeat 45px 0px; }
+#nav li.uroven5{ background:url(submenubg.jpg) }
+#nav li.uroven5 a, #nav li.uroven5 a.akt{ text-indent: 70px;  background:url(submenubg_sipka.jpg) no-repeat 55px 0px; }
+#nav li.uroven6{ background:url(submenubg.jpg) }
+#nav li.uroven6 a, #nav li.uroven6 a.akt{ text-indent: 80px;  background:url(submenubg_sipka.jpg) no-repeat 65px 0px; }
+#nav li.uroven7{ background:url(submenubg.jpg) }
+#nav li.uroven7 a, #nav li.uroven7 a.akt{ text-indent: 90px;  background:url(submenubg_sipka.jpg) no-repeat 75px 0px; }
+
+#nav li.has_ul:hover, #nav li a.akt {color:#3366CC; background:url(submenubgexp.jpg) no-repeat;}
+#nav li.clicked {color:#3366CC; background:url(submenubgexp.jpg) no-repeat;}
+
+/* při refreshi uchovává rozbalení*/
+#nav li.akt ul{
+  display:block;
+}

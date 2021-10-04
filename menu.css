@@ -1,0 +1,51 @@
+/*------ Containter ------*/
+#menu{
+	width: 980px;
+	height: 50px;
+	margin-top: 1px;
+	margin-left: 0px;
+	/*overflow:hidden; COMMENTED FOR LIVESEARCH by RSIVAK 9.2.2015*/
+	float: left;
+	background:url(menubg.jpg) no-repeat bottom center;
+}
+/*------ MENU ------*/
+#menu ul{
+	padding:0px;
+	margin: 0px;
+	list-style:none;
+}
+
+#menu ul li{
+	display: block;
+	float: left;
+	text-align: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+		height: 40px;
+		line-height: 40px;
+}
+#menu ul li.first{
+	margin-left: 20px;
+}
+
+#menu ul li a{
+	display: block;
+	padding-right: 10px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 100;
+	border-right: 1px solid #7D559A;
+	color: #fff;
+}
+
+#menu ul li a:hover{
+	color: #EADBFC;
+	border-right-color:#6E4691;
+	background:url(menusel.jpg) no-repeat center bottom;
+}
+#menu ul li a.akt{
+	color: #fff;
+	border-right-color:#7D559A;
+	background:url(menusel.jpg) no-repeat center bottom;
+}
